@@ -36,7 +36,7 @@ public class PageController {
 						temp += "m";
 					}
 				}
-				model.addAttribute("hasil",temp);
+				model.addAttribute("hasil",temp.substring(1));
 			}
 		}
 		model.addAttribute("a", num1); //mengirim a ke html
